@@ -1,0 +1,1728 @@
+{
+ "blender": "5.2.2 LTS",
+ "frame": [
+  1,
+  96,
+  24
+ ],
+ "cameras": {
+  "CAM_Kerbau": {
+   "name": "CAM_Kerbau",
+   "location": [
+    270.5,
+    -27.5,
+    2.6
+   ],
+   "rotationEulerDeg": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "lens": 28.0,
+   "parent": null
+  },
+  "Kam_Air_Terjun": {
+   "name": "Kam_Air_Terjun",
+   "location": [
+    -205.0,
+    18.0,
+    13.0
+   ],
+   "rotationEulerDeg": [
+    95.703,
+    0.0,
+    42.109
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "lens": 36.0,
+   "parent": null
+  },
+  "Kam_Sungai": {
+   "name": "Kam_Sungai",
+   "location": [
+    -170.0,
+    10.0,
+    18.0
+   ],
+   "rotationEulerDeg": [
+    82.012,
+    -0.0,
+    52.125
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "lens": 55.0,
+   "parent": null
+  },
+  "Kamera_Langit": {
+   "name": "Kamera_Langit",
+   "location": [
+    25.6,
+    -111.3,
+    10.5
+   ],
+   "rotationEulerDeg": [
+    101.996,
+    -0.0,
+    -35.855
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "lens": 18.0,
+   "parent": null
+  },
+  "Kamera_Mata": {
+   "name": "Kamera_Mata",
+   "location": [
+    25.552,
+    -111.335,
+    10.427
+   ],
+   "rotationEulerDeg": [
+    80.862,
+    5.593,
+    -36.664
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "lens": 22.0,
+   "parent": null
+  },
+  "Kamera_Pekarangan": {
+   "name": "Kamera_Pekarangan",
+   "location": [
+    322.0,
+    -124.0,
+    58.0
+   ],
+   "rotationEulerDeg": [
+    65.667,
+    0.0,
+    36.674
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "lens": 40.0,
+   "parent": null
+  },
+  "Kamera_Timur": {
+   "name": "Kamera_Timur",
+   "location": [
+    330.0,
+    -230.0,
+    120.0
+   ],
+   "rotationEulerDeg": [
+    62.422,
+    0.0,
+    31.185
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "lens": 40.0,
+   "parent": null
+  },
+  "Kamera_Top": {
+   "name": "Kamera_Top",
+   "location": [
+    0.0,
+    0.0,
+    420.0
+   ],
+   "rotationEulerDeg": [
+    0.0,
+    -0.0,
+    0.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "lens": 50.0,
+   "parent": null
+  },
+  "Kamera_Utama": {
+   "name": "Kamera_Utama",
+   "location": [
+    405.0,
+    -435.0,
+    245.0
+   ],
+   "rotationEulerDeg": [
+    65.63,
+    -0.0,
+    40.426
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "lens": 50.0,
+   "parent": null
+  },
+  "Kamera_Utara": {
+   "name": "Kamera_Utara",
+   "location": [
+    130.0,
+    295.0,
+    120.0
+   ],
+   "rotationEulerDeg": [
+    63.646,
+    0.0,
+    143.393
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "lens": 45.0,
+   "parent": null
+  }
+ },
+ "sun": {
+  "name": "Sun_Dokumentasi",
+  "location": [
+   -3.924,
+   -220.638,
+   176.369
+  ],
+  "rotationEulerDeg": [
+   48.0,
+   3.0,
+   32.0
+  ],
+  "scale": [
+   1.0,
+   1.0,
+   1.0
+  ],
+  "lens": null,
+  "parent": null
+ },
+ "worldColor": [
+  0.62,
+  0.74,
+  0.88,
+  1.0
+ ],
+ "materials": [
+  {
+   "name": "M_Air_BiruHijau",
+   "baseColorLinear": [
+    0.03,
+    0.195,
+    0.205
+   ],
+   "baseColorSrgb": [
+    0.18975,
+    0.47887,
+    0.49011
+   ],
+   "metallic": 0.0,
+   "roughness": 0.1,
+   "alpha": 1.0,
+   "emission": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emissionStrength": 0.0,
+   "texture": null,
+   "textureFile": null,
+   "blendMethod": "HASHED",
+   "backfaceCulling": false,
+   "library": null
+  },
+  {
+   "name": "M_AS_Foam",
+   "baseColorLinear": [
+    0.8,
+    0.8,
+    0.8
+   ],
+   "baseColorSrgb": [
+    0.90633,
+    0.90633,
+    0.90633
+   ],
+   "metallic": 0.0,
+   "roughness": 0.45,
+   "alpha": 1.0,
+   "emission": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emissionStrength": 0.02,
+   "texture": "T_Foam_BaseColor",
+   "textureFile": "T_Foam_BaseColor.png",
+   "blendMethod": "HASHED",
+   "backfaceCulling": false,
+   "library": null
+  },
+  {
+   "name": "M_AS_Grass",
+   "baseColorLinear": [
+    0.085,
+    0.315,
+    0.045
+   ],
+   "baseColorSrgb": [
+    0.32273,
+    0.59695,
+    0.2348
+   ],
+   "metallic": 0.0,
+   "roughness": 0.92,
+   "alpha": 1.0,
+   "emission": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emissionStrength": 0.0,
+   "texture": null,
+   "textureFile": null,
+   "blendMethod": "HASHED",
+   "backfaceCulling": false,
+   "library": null
+  },
+  {
+   "name": "M_AS_Gravel",
+   "baseColorLinear": [
+    0.165,
+    0.145,
+    0.12
+   ],
+   "baseColorSrgb": [
+    0.44297,
+    0.41687,
+    0.38109
+   ],
+   "metallic": 0.0,
+   "roughness": 0.95,
+   "alpha": 1.0,
+   "emission": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emissionStrength": 0.0,
+   "texture": null,
+   "textureFile": null,
+   "blendMethod": "HASHED",
+   "backfaceCulling": false,
+   "library": null
+  },
+  {
+   "name": "M_AS_Rock",
+   "baseColorLinear": [
+    0.8,
+    0.8,
+    0.8
+   ],
+   "baseColorSrgb": [
+    0.90633,
+    0.90633,
+    0.90633
+   ],
+   "metallic": 0.0,
+   "roughness": 0.85,
+   "alpha": 1.0,
+   "emission": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emissionStrength": 0.0,
+   "texture": "T_Rock_BaseColor",
+   "textureFile": "T_Rock_BaseColor.png",
+   "blendMethod": "HASHED",
+   "backfaceCulling": false,
+   "library": null
+  },
+  {
+   "name": "M_AS_RockWet",
+   "baseColorLinear": [
+    0.05,
+    0.048,
+    0.043
+   ],
+   "baseColorSrgb": [
+    0.2478,
+    0.24269,
+    0.22936
+   ],
+   "metallic": 0.0,
+   "roughness": 0.32,
+   "alpha": 1.0,
+   "emission": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emissionStrength": 0.0,
+   "texture": null,
+   "textureFile": null,
+   "blendMethod": "HASHED",
+   "backfaceCulling": false,
+   "library": null
+  },
+  {
+   "name": "M_AS_Water",
+   "baseColorLinear": [
+    0.8,
+    0.8,
+    0.8
+   ],
+   "baseColorSrgb": [
+    0.90633,
+    0.90633,
+    0.90633
+   ],
+   "metallic": 0.0,
+   "roughness": 0.42,
+   "alpha": 1.0,
+   "emission": [
+    0.02,
+    0.14,
+    0.16
+   ],
+   "emissionStrength": 0.22,
+   "texture": "T_River_BaseColor",
+   "textureFile": "T_River_BaseColor.png",
+   "blendMethod": "HASHED",
+   "backfaceCulling": false,
+   "library": null
+  },
+  {
+   "name": "M_AT_Foam",
+   "baseColorLinear": [
+    0.8,
+    0.8,
+    0.8
+   ],
+   "baseColorSrgb": [
+    0.90633,
+    0.90633,
+    0.90633
+   ],
+   "metallic": 0.0,
+   "roughness": 0.45,
+   "alpha": 1.0,
+   "emission": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emissionStrength": 0.03,
+   "texture": "T_Foam_BaseColor",
+   "textureFile": "T_Foam_BaseColor.png",
+   "blendMethod": "HASHED",
+   "backfaceCulling": false,
+   "library": null
+  },
+  {
+   "name": "M_AT_Rock",
+   "baseColorLinear": [
+    0.8,
+    0.8,
+    0.8
+   ],
+   "baseColorSrgb": [
+    0.90633,
+    0.90633,
+    0.90633
+   ],
+   "metallic": 0.0,
+   "roughness": 0.85,
+   "alpha": 1.0,
+   "emission": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emissionStrength": 0.0,
+   "texture": "T_Rock_BaseColor",
+   "textureFile": "T_Rock_BaseColor.png",
+   "blendMethod": "HASHED",
+   "backfaceCulling": false,
+   "library": null
+  },
+  {
+   "name": "M_AT_RockWet",
+   "baseColorLinear": [
+    0.055,
+    0.05,
+    0.045
+   ],
+   "baseColorSrgb": [
+    0.26007,
+    0.2478,
+    0.2348
+   ],
+   "metallic": 0.0,
+   "roughness": 0.35,
+   "alpha": 1.0,
+   "emission": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emissionStrength": 0.0,
+   "texture": null,
+   "textureFile": null,
+   "blendMethod": "HASHED",
+   "backfaceCulling": false,
+   "library": null
+  },
+  {
+   "name": "M_AT_Water",
+   "baseColorLinear": [
+    0.8,
+    0.8,
+    0.8
+   ],
+   "baseColorSrgb": [
+    0.90633,
+    0.90633,
+    0.90633
+   ],
+   "metallic": 0.0,
+   "roughness": 0.38,
+   "alpha": 1.0,
+   "emission": [
+    0.04,
+    0.18,
+    0.22
+   ],
+   "emissionStrength": 0.22,
+   "texture": "T_Waterfall_BaseColor",
+   "textureFile": "T_Waterfall_BaseColor.png",
+   "blendMethod": "HASHED",
+   "backfaceCulling": false,
+   "library": null
+  },
+  {
+   "name": "M_Awan",
+   "baseColorLinear": [
+    0.8,
+    0.8,
+    0.8
+   ],
+   "baseColorSrgb": [
+    0.90633,
+    0.90633,
+    0.90633
+   ],
+   "metallic": 0.0,
+   "roughness": 1.0,
+   "alpha": 1.0,
+   "emission": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emissionStrength": 0.15,
+   "texture": null,
+   "textureFile": null,
+   "blendMethod": "HASHED",
+   "backfaceCulling": false,
+   "library": null
+  },
+  {
+   "name": "M_Jalur_CoklatMuda",
+   "baseColorLinear": [
+    0.585,
+    0.455,
+    0.29
+   ],
+   "baseColorSrgb": [
+    0.78879,
+    0.7049,
+    0.57487
+   ],
+   "metallic": 0.0,
+   "roughness": 0.9,
+   "alpha": 1.0,
+   "emission": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emissionStrength": 0.0,
+   "texture": null,
+   "textureFile": null,
+   "blendMethod": "HASHED",
+   "backfaceCulling": false,
+   "library": null
+  },
+  {
+   "name": "M_Lahan_Kosong",
+   "baseColorLinear": [
+    0.215,
+    0.33,
+    0.115
+   ],
+   "baseColorSrgb": [
+    0.50103,
+    0.60971,
+    0.37343
+   ],
+   "metallic": 0.0,
+   "roughness": 0.95,
+   "alpha": 1.0,
+   "emission": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emissionStrength": 0.0,
+   "texture": null,
+   "textureFile": null,
+   "blendMethod": "HASHED",
+   "backfaceCulling": false,
+   "library": null
+  },
+  {
+   "name": "M_Padi_A",
+   "baseColorLinear": [
+    0.07,
+    0.32,
+    0.016
+   ],
+   "baseColorSrgb": [
+    0.29337,
+    0.60124,
+    0.13335
+   ],
+   "metallic": 0.0,
+   "roughness": 0.9,
+   "alpha": 1.0,
+   "emission": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emissionStrength": 0.0,
+   "texture": null,
+   "textureFile": null,
+   "blendMethod": "HASHED",
+   "backfaceCulling": false,
+   "library": null
+  },
+  {
+   "name": "M_Padi_B",
+   "baseColorLinear": [
+    0.105,
+    0.39,
+    0.03
+   ],
+   "baseColorSrgb": [
+    0.35749,
+    0.65763,
+    0.18975
+   ],
+   "metallic": 0.0,
+   "roughness": 0.9,
+   "alpha": 1.0,
+   "emission": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emissionStrength": 0.0,
+   "texture": null,
+   "textureFile": null,
+   "blendMethod": "HASHED",
+   "backfaceCulling": false,
+   "library": null
+  },
+  {
+   "name": "M_Padi_Baris",
+   "baseColorLinear": [
+    0.038,
+    0.195,
+    0.01
+   ],
+   "baseColorSrgb": [
+    0.21508,
+    0.47887,
+    0.09985
+   ],
+   "metallic": 0.0,
+   "roughness": 0.9,
+   "alpha": 1.0,
+   "emission": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emissionStrength": 0.0,
+   "texture": null,
+   "textureFile": null,
+   "blendMethod": "HASHED",
+   "backfaceCulling": false,
+   "library": null
+  },
+  {
+   "name": "M_Padi_C",
+   "baseColorLinear": [
+    0.05,
+    0.25,
+    0.01
+   ],
+   "baseColorSrgb": [
+    0.2478,
+    0.5371,
+    0.09985
+   ],
+   "metallic": 0.0,
+   "roughness": 0.9,
+   "alpha": 1.0,
+   "emission": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emissionStrength": 0.0,
+   "texture": null,
+   "textureFile": null,
+   "blendMethod": "HASHED",
+   "backfaceCulling": false,
+   "library": null
+  },
+  {
+   "name": "M_Padi_D",
+   "baseColorLinear": [
+    0.14,
+    0.45,
+    0.048
+   ],
+   "baseColorSrgb": [
+    0.41002,
+    0.70141,
+    0.24269
+   ],
+   "metallic": 0.0,
+   "roughness": 0.9,
+   "alpha": 1.0,
+   "emission": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emissionStrength": 0.0,
+   "texture": null,
+   "textureFile": null,
+   "blendMethod": "HASHED",
+   "backfaceCulling": false,
+   "library": null
+  },
+  {
+   "name": "M_Padi_Rumpun",
+   "baseColorLinear": [
+    0.17,
+    0.47,
+    0.05
+   ],
+   "baseColorSrgb": [
+    0.4492,
+    0.71524,
+    0.2478
+   ],
+   "metallic": 0.0,
+   "roughness": 0.9,
+   "alpha": 1.0,
+   "emission": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emissionStrength": 0.0,
+   "texture": null,
+   "textureFile": null,
+   "blendMethod": "HASHED",
+   "backfaceCulling": false,
+   "library": null
+  },
+  {
+   "name": "M_Padi_Tegak_1",
+   "baseColorLinear": [
+    0.3,
+    0.62,
+    0.075
+   ],
+   "baseColorSrgb": [
+    0.58383,
+    0.80947,
+    0.30353
+   ],
+   "metallic": 0.0,
+   "roughness": 0.9,
+   "alpha": 1.0,
+   "emission": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emissionStrength": 0.0,
+   "texture": null,
+   "textureFile": null,
+   "blendMethod": "HASHED",
+   "backfaceCulling": false,
+   "library": null
+  },
+  {
+   "name": "M_Padi_Tegak_2",
+   "baseColorLinear": [
+    0.36,
+    0.7,
+    0.095
+   ],
+   "baseColorSrgb": [
+    0.63425,
+    0.85431,
+    0.34064
+   ],
+   "metallic": 0.0,
+   "roughness": 0.9,
+   "alpha": 1.0,
+   "emission": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emissionStrength": 0.0,
+   "texture": null,
+   "textureFile": null,
+   "blendMethod": "HASHED",
+   "backfaceCulling": false,
+   "library": null
+  },
+  {
+   "name": "M_Padi_Tegak_3",
+   "baseColorLinear": [
+    0.25,
+    0.55,
+    0.055
+   ],
+   "baseColorSrgb": [
+    0.5371,
+    0.76738,
+    0.26007
+   ],
+   "metallic": 0.0,
+   "roughness": 0.9,
+   "alpha": 1.0,
+   "emission": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emissionStrength": 0.0,
+   "texture": null,
+   "textureFile": null,
+   "blendMethod": "HASHED",
+   "backfaceCulling": false,
+   "library": null
+  },
+  {
+   "name": "M_Padi_Tegak_4",
+   "baseColorLinear": [
+    0.42,
+    0.76,
+    0.12
+   ],
+   "baseColorSrgb": [
+    0.67998,
+    0.886,
+    0.38109
+   ],
+   "metallic": 0.0,
+   "roughness": 0.9,
+   "alpha": 1.0,
+   "emission": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emissionStrength": 0.0,
+   "texture": null,
+   "textureFile": null,
+   "blendMethod": "HASHED",
+   "backfaceCulling": false,
+   "library": null
+  },
+  {
+   "name": "M_Pematang_Tanah",
+   "baseColorLinear": [
+    0.24,
+    0.152,
+    0.076
+   ],
+   "baseColorSrgb": [
+    0.52711,
+    0.42623,
+    0.30552
+   ],
+   "metallic": 0.0,
+   "roughness": 0.9,
+   "alpha": 1.0,
+   "emission": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emissionStrength": 0.0,
+   "texture": null,
+   "textureFile": null,
+   "blendMethod": "HASHED",
+   "backfaceCulling": false,
+   "library": null
+  },
+  {
+   "name": "M_Pohon_Batang",
+   "baseColorLinear": [
+    0.18,
+    0.115,
+    0.06
+   ],
+   "baseColorSrgb": [
+    0.46136,
+    0.37343,
+    0.2717
+   ],
+   "metallic": 0.0,
+   "roughness": 0.9,
+   "alpha": 1.0,
+   "emission": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emissionStrength": 0.0,
+   "texture": null,
+   "textureFile": null,
+   "blendMethod": "HASHED",
+   "backfaceCulling": false,
+   "library": null
+  },
+  {
+   "name": "M_Pohon_Daun",
+   "baseColorLinear": [
+    0.05,
+    0.185,
+    0.028
+   ],
+   "baseColorSrgb": [
+    0.2478,
+    0.46728,
+    0.18281
+   ],
+   "metallic": 0.0,
+   "roughness": 0.95,
+   "alpha": 1.0,
+   "emission": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emissionStrength": 0.0,
+   "texture": null,
+   "textureFile": null,
+   "blendMethod": "HASHED",
+   "backfaceCulling": false,
+   "library": null
+  },
+  {
+   "name": "M_Pohon_DaunMuda",
+   "baseColorLinear": [
+    0.08,
+    0.245,
+    0.038
+   ],
+   "baseColorSrgb": [
+    0.3133,
+    0.53214,
+    0.21508
+   ],
+   "metallic": 0.0,
+   "roughness": 0.95,
+   "alpha": 1.0,
+   "emission": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emissionStrength": 0.0,
+   "texture": null,
+   "textureFile": null,
+   "blendMethod": "HASHED",
+   "backfaceCulling": false,
+   "library": null
+  },
+  {
+   "name": "M_Pohon_DaunTua",
+   "baseColorLinear": [
+    0.028,
+    0.115,
+    0.016
+   ],
+   "baseColorSrgb": [
+    0.18281,
+    0.37343,
+    0.13335
+   ],
+   "metallic": 0.0,
+   "roughness": 0.95,
+   "alpha": 1.0,
+   "emission": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emissionStrength": 0.0,
+   "texture": null,
+   "textureFile": null,
+   "blendMethod": "HASHED",
+   "backfaceCulling": false,
+   "library": null
+  },
+  {
+   "name": "M_Saung_Atap",
+   "baseColorLinear": [
+    0.27,
+    0.13,
+    0.07
+   ],
+   "baseColorSrgb": [
+    0.55639,
+    0.39588,
+    0.29337
+   ],
+   "metallic": 0.0,
+   "roughness": 0.9,
+   "alpha": 1.0,
+   "emission": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emissionStrength": 0.0,
+   "texture": null,
+   "textureFile": null,
+   "blendMethod": "HASHED",
+   "backfaceCulling": false,
+   "library": null
+  },
+  {
+   "name": "M_Saung_Kayu",
+   "baseColorLinear": [
+    0.36,
+    0.23,
+    0.12
+   ],
+   "baseColorSrgb": [
+    0.63425,
+    0.51688,
+    0.38109
+   ],
+   "metallic": 0.0,
+   "roughness": 0.9,
+   "alpha": 1.0,
+   "emission": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emissionStrength": 0.0,
+   "texture": null,
+   "textureFile": null,
+   "blendMethod": "HASHED",
+   "backfaceCulling": false,
+   "library": null
+  },
+  {
+   "name": "M_Tanah_Hutan",
+   "baseColorLinear": [
+    0.045,
+    0.11,
+    0.028
+   ],
+   "baseColorSrgb": [
+    0.2348,
+    0.36556,
+    0.18281
+   ],
+   "metallic": 0.0,
+   "roughness": 0.95,
+   "alpha": 1.0,
+   "emission": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emissionStrength": 0.0,
+   "texture": null,
+   "textureFile": null,
+   "blendMethod": "HASHED",
+   "backfaceCulling": false,
+   "library": null
+  },
+  {
+   "name": "M_Tanah_Tumbuhan",
+   "baseColorLinear": [
+    0.07,
+    0.165,
+    0.04
+   ],
+   "baseColorSrgb": [
+    0.29337,
+    0.44297,
+    0.22092
+   ],
+   "metallic": 0.0,
+   "roughness": 0.9,
+   "alpha": 1.0,
+   "emission": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emissionStrength": 0.0,
+   "texture": null,
+   "textureFile": null,
+   "blendMethod": "HASHED",
+   "backfaceCulling": false,
+   "library": null
+  },
+  {
+   "name": "M_Terastering_Tanah",
+   "baseColorLinear": [
+    0.115,
+    0.065,
+    0.032
+   ],
+   "baseColorSrgb": [
+    0.37343,
+    0.28278,
+    0.19642
+   ],
+   "metallic": 0.0,
+   "roughness": 0.9,
+   "alpha": 1.0,
+   "emission": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emissionStrength": 0.0,
+   "texture": null,
+   "textureFile": null,
+   "blendMethod": "HASHED",
+   "backfaceCulling": false,
+   "library": null
+  },
+  {
+   "name": "Rumah_01_baked",
+   "baseColorLinear": [
+    0.8,
+    0.8,
+    0.8
+   ],
+   "baseColorSrgb": [
+    0.90633,
+    0.90633,
+    0.90633
+   ],
+   "metallic": 0.0,
+   "roughness": 0.72,
+   "alpha": 1.0,
+   "emission": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emissionStrength": 0.0,
+   "texture": "Atlas_Rumah_01",
+   "textureFile": "Atlas_Rumah_01.png",
+   "blendMethod": "HASHED",
+   "backfaceCulling": false,
+   "library": null
+  },
+  {
+   "name": "Rumah_02_baked",
+   "baseColorLinear": [
+    0.8,
+    0.8,
+    0.8
+   ],
+   "baseColorSrgb": [
+    0.90633,
+    0.90633,
+    0.90633
+   ],
+   "metallic": 0.0,
+   "roughness": 0.72,
+   "alpha": 1.0,
+   "emission": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emissionStrength": 0.0,
+   "texture": "Atlas_Rumah_02",
+   "textureFile": "Atlas_Rumah_02.png",
+   "blendMethod": "HASHED",
+   "backfaceCulling": false,
+   "library": null
+  },
+  {
+   "name": "Rumah_03_baked",
+   "baseColorLinear": [
+    0.8,
+    0.8,
+    0.8
+   ],
+   "baseColorSrgb": [
+    0.90633,
+    0.90633,
+    0.90633
+   ],
+   "metallic": 0.0,
+   "roughness": 0.72,
+   "alpha": 1.0,
+   "emission": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emissionStrength": 0.0,
+   "texture": "Atlas_Rumah_03",
+   "textureFile": "Atlas_Rumah_03.png",
+   "blendMethod": "HASHED",
+   "backfaceCulling": false,
+   "library": null
+  },
+  {
+   "name": "Rumah_04_baked",
+   "baseColorLinear": [
+    0.8,
+    0.8,
+    0.8
+   ],
+   "baseColorSrgb": [
+    0.90633,
+    0.90633,
+    0.90633
+   ],
+   "metallic": 0.0,
+   "roughness": 0.72,
+   "alpha": 1.0,
+   "emission": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emissionStrength": 0.0,
+   "texture": "Atlas_Rumah_04",
+   "textureFile": "Atlas_Rumah_04.png",
+   "blendMethod": "HASHED",
+   "backfaceCulling": false,
+   "library": null
+  },
+  {
+   "name": "Rumah_05_baked",
+   "baseColorLinear": [
+    0.8,
+    0.8,
+    0.8
+   ],
+   "baseColorSrgb": [
+    0.90633,
+    0.90633,
+    0.90633
+   ],
+   "metallic": 0.0,
+   "roughness": 0.72,
+   "alpha": 1.0,
+   "emission": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emissionStrength": 0.0,
+   "texture": "Atlas_Rumah_05",
+   "textureFile": "Atlas_Rumah_05.png",
+   "blendMethod": "HASHED",
+   "backfaceCulling": false,
+   "library": null
+  },
+  {
+   "name": "Rumah_06_baked",
+   "baseColorLinear": [
+    0.8,
+    0.8,
+    0.8
+   ],
+   "baseColorSrgb": [
+    0.90633,
+    0.90633,
+    0.90633
+   ],
+   "metallic": 0.0,
+   "roughness": 0.72,
+   "alpha": 1.0,
+   "emission": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emissionStrength": 0.0,
+   "texture": "Atlas_Rumah_06",
+   "textureFile": "Atlas_Rumah_06.png",
+   "blendMethod": "HASHED",
+   "backfaceCulling": false,
+   "library": null
+  },
+  {
+   "name": "Rumah_07_baked",
+   "baseColorLinear": [
+    0.8,
+    0.8,
+    0.8
+   ],
+   "baseColorSrgb": [
+    0.90633,
+    0.90633,
+    0.90633
+   ],
+   "metallic": 0.0,
+   "roughness": 0.72,
+   "alpha": 1.0,
+   "emission": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emissionStrength": 0.0,
+   "texture": "Atlas_Rumah_07",
+   "textureFile": "Atlas_Rumah_07.png",
+   "blendMethod": "HASHED",
+   "backfaceCulling": false,
+   "library": null
+  },
+  {
+   "name": "Rumah_08_baked",
+   "baseColorLinear": [
+    0.8,
+    0.8,
+    0.8
+   ],
+   "baseColorSrgb": [
+    0.90633,
+    0.90633,
+    0.90633
+   ],
+   "metallic": 0.0,
+   "roughness": 0.72,
+   "alpha": 1.0,
+   "emission": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emissionStrength": 0.0,
+   "texture": "Atlas_Rumah_08",
+   "textureFile": "Atlas_Rumah_08.png",
+   "blendMethod": "HASHED",
+   "backfaceCulling": false,
+   "library": null
+  },
+  {
+   "name": "Rumah_09_baked",
+   "baseColorLinear": [
+    0.8,
+    0.8,
+    0.8
+   ],
+   "baseColorSrgb": [
+    0.90633,
+    0.90633,
+    0.90633
+   ],
+   "metallic": 0.0,
+   "roughness": 0.72,
+   "alpha": 1.0,
+   "emission": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emissionStrength": 0.0,
+   "texture": "Atlas_Rumah_09",
+   "textureFile": "Atlas_Rumah_09.png",
+   "blendMethod": "HASHED",
+   "backfaceCulling": false,
+   "library": null
+  },
+  {
+   "name": "Rumah_10_baked",
+   "baseColorLinear": [
+    0.8,
+    0.8,
+    0.8
+   ],
+   "baseColorSrgb": [
+    0.90633,
+    0.90633,
+    0.90633
+   ],
+   "metallic": 0.0,
+   "roughness": 0.72,
+   "alpha": 1.0,
+   "emission": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emissionStrength": 0.0,
+   "texture": "Atlas_Rumah_10",
+   "textureFile": "Atlas_Rumah_10.png",
+   "blendMethod": "HASHED",
+   "backfaceCulling": false,
+   "library": null
+  },
+  {
+   "name": "Rumah_11_baked",
+   "baseColorLinear": [
+    0.8,
+    0.8,
+    0.8
+   ],
+   "baseColorSrgb": [
+    0.90633,
+    0.90633,
+    0.90633
+   ],
+   "metallic": 0.0,
+   "roughness": 0.72,
+   "alpha": 1.0,
+   "emission": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emissionStrength": 0.0,
+   "texture": "Atlas_Rumah_11",
+   "textureFile": "Atlas_Rumah_11.png",
+   "blendMethod": "HASHED",
+   "backfaceCulling": false,
+   "library": null
+  },
+  {
+   "name": "Rumah_12_baked",
+   "baseColorLinear": [
+    0.8,
+    0.8,
+    0.8
+   ],
+   "baseColorSrgb": [
+    0.90633,
+    0.90633,
+    0.90633
+   ],
+   "metallic": 0.0,
+   "roughness": 0.72,
+   "alpha": 1.0,
+   "emission": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emissionStrength": 0.0,
+   "texture": "Atlas_Rumah_12",
+   "textureFile": "Atlas_Rumah_12.png",
+   "blendMethod": "HASHED",
+   "backfaceCulling": false,
+   "library": null
+  },
+  {
+   "name": "Rumah_13_baked",
+   "baseColorLinear": [
+    0.8,
+    0.8,
+    0.8
+   ],
+   "baseColorSrgb": [
+    0.90633,
+    0.90633,
+    0.90633
+   ],
+   "metallic": 0.0,
+   "roughness": 0.72,
+   "alpha": 1.0,
+   "emission": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emissionStrength": 0.0,
+   "texture": "Atlas_Rumah_13",
+   "textureFile": "Atlas_Rumah_13.png",
+   "blendMethod": "HASHED",
+   "backfaceCulling": false,
+   "library": null
+  },
+  {
+   "name": "Rumah_14_baked",
+   "baseColorLinear": [
+    0.8,
+    0.8,
+    0.8
+   ],
+   "baseColorSrgb": [
+    0.90633,
+    0.90633,
+    0.90633
+   ],
+   "metallic": 0.0,
+   "roughness": 0.72,
+   "alpha": 1.0,
+   "emission": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emissionStrength": 0.0,
+   "texture": "Atlas_Rumah_14",
+   "textureFile": "Atlas_Rumah_14.png",
+   "blendMethod": "HASHED",
+   "backfaceCulling": false,
+   "library": null
+  },
+  {
+   "name": "Rumah_15_baked",
+   "baseColorLinear": [
+    0.8,
+    0.8,
+    0.8
+   ],
+   "baseColorSrgb": [
+    0.90633,
+    0.90633,
+    0.90633
+   ],
+   "metallic": 0.0,
+   "roughness": 0.72,
+   "alpha": 1.0,
+   "emission": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emissionStrength": 0.0,
+   "texture": "Atlas_Rumah_15",
+   "textureFile": "Atlas_Rumah_15.png",
+   "blendMethod": "HASHED",
+   "backfaceCulling": false,
+   "library": null
+  },
+  {
+   "name": "Rumah_16_baked",
+   "baseColorLinear": [
+    0.8,
+    0.8,
+    0.8
+   ],
+   "baseColorSrgb": [
+    0.90633,
+    0.90633,
+    0.90633
+   ],
+   "metallic": 0.0,
+   "roughness": 0.72,
+   "alpha": 1.0,
+   "emission": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emissionStrength": 0.0,
+   "texture": "Atlas_Rumah_16",
+   "textureFile": "Atlas_Rumah_16.png",
+   "blendMethod": "HASHED",
+   "backfaceCulling": false,
+   "library": null
+  },
+  {
+   "name": "Rumah_17_baked",
+   "baseColorLinear": [
+    0.8,
+    0.8,
+    0.8
+   ],
+   "baseColorSrgb": [
+    0.90633,
+    0.90633,
+    0.90633
+   ],
+   "metallic": 0.0,
+   "roughness": 0.72,
+   "alpha": 1.0,
+   "emission": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emissionStrength": 0.0,
+   "texture": "Atlas_Rumah_17",
+   "textureFile": "Atlas_Rumah_17.png",
+   "blendMethod": "HASHED",
+   "backfaceCulling": false,
+   "library": null
+  },
+  {
+   "name": "Rumah_18_baked",
+   "baseColorLinear": [
+    0.8,
+    0.8,
+    0.8
+   ],
+   "baseColorSrgb": [
+    0.90633,
+    0.90633,
+    0.90633
+   ],
+   "metallic": 0.0,
+   "roughness": 0.72,
+   "alpha": 1.0,
+   "emission": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emissionStrength": 0.0,
+   "texture": "Atlas_Rumah_18",
+   "textureFile": "Atlas_Rumah_18.png",
+   "blendMethod": "HASHED",
+   "backfaceCulling": false,
+   "library": null
+  },
+  {
+   "name": "Rumah_19_baked",
+   "baseColorLinear": [
+    0.8,
+    0.8,
+    0.8
+   ],
+   "baseColorSrgb": [
+    0.90633,
+    0.90633,
+    0.90633
+   ],
+   "metallic": 0.0,
+   "roughness": 0.72,
+   "alpha": 1.0,
+   "emission": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emissionStrength": 0.0,
+   "texture": "Atlas_Rumah_19",
+   "textureFile": "Atlas_Rumah_19.png",
+   "blendMethod": "HASHED",
+   "backfaceCulling": false,
+   "library": null
+  },
+  {
+   "name": "Rumah_20_baked",
+   "baseColorLinear": [
+    0.8,
+    0.8,
+    0.8
+   ],
+   "baseColorSrgb": [
+    0.90633,
+    0.90633,
+    0.90633
+   ],
+   "metallic": 0.0,
+   "roughness": 0.72,
+   "alpha": 1.0,
+   "emission": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emissionStrength": 0.0,
+   "texture": "Atlas_Rumah_20",
+   "textureFile": "Atlas_Rumah_20.png",
+   "blendMethod": "HASHED",
+   "backfaceCulling": false,
+   "library": null
+  }
+ ],
+ "textures": {
+  "Atlas_Rumah_01": "Atlas_Rumah_01.png",
+  "Atlas_Rumah_02": "Atlas_Rumah_02.png",
+  "Atlas_Rumah_03": "Atlas_Rumah_03.png",
+  "Atlas_Rumah_04": "Atlas_Rumah_04.png",
+  "Atlas_Rumah_05": "Atlas_Rumah_05.png",
+  "Atlas_Rumah_06": "Atlas_Rumah_06.png",
+  "Atlas_Rumah_07": "Atlas_Rumah_07.png",
+  "Atlas_Rumah_08": "Atlas_Rumah_08.png",
+  "Atlas_Rumah_09": "Atlas_Rumah_09.png",
+  "Atlas_Rumah_10": "Atlas_Rumah_10.png",
+  "Atlas_Rumah_11": "Atlas_Rumah_11.png",
+  "Atlas_Rumah_12": "Atlas_Rumah_12.png",
+  "Atlas_Rumah_13": "Atlas_Rumah_13.png",
+  "Atlas_Rumah_14": "Atlas_Rumah_14.png",
+  "Atlas_Rumah_15": "Atlas_Rumah_15.png",
+  "Atlas_Rumah_16": "Atlas_Rumah_16.png",
+  "Atlas_Rumah_17": "Atlas_Rumah_17.png",
+  "Atlas_Rumah_18": "Atlas_Rumah_18.png",
+  "Atlas_Rumah_19": "Atlas_Rumah_19.png",
+  "Atlas_Rumah_20": "Atlas_Rumah_20.png",
+  "T_Foam_BaseColor": "T_Foam_BaseColor.png",
+  "T_Langit_Gradient_512": "T_Langit_Gradient_512.png",
+  "T_River_BaseColor": "T_River_BaseColor.png",
+  "T_Rock_BaseColor": "T_Rock_BaseColor.png",
+  "T_Waterfall_BaseColor": "T_Waterfall_BaseColor.png"
+ },
+ "groups": {
+  "ENV": 322,
+  "POP": 20,
+  "SKY": 8
+ }
+}
